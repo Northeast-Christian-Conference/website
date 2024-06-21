@@ -1,12 +1,6 @@
 
 @media screen {
 
-body.opt1 {
-  background: #DDDDDD url('../img/sunsetsea_light.jpg') no-repeat center top; 
-  background-attachment:fixed;
-}
-
-
 /* Shared CSS ***********************************/
 .text-red {
   color: red;
