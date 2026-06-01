@@ -9,7 +9,26 @@
   <meta name="author" content="">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
-  <!--<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">-->
+  <style>
+    .pp-JZNX7QQ4EKKYG {
+      text-align: center;
+      border: none;
+      border-radius: 0.25rem;
+      min-width: 11.625rem;
+      padding: 0 2rem;
+      height: 2.625rem;
+      font-weight: bold;
+      background-color: #FFD140;
+      color: #000000;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      cursor: pointer;
+    }
+    .payment-table td {
+      padding: 6px;
+    }
+  </style>
 </head>
 <body class="opt1">
   <div class="container">
@@ -21,108 +40,79 @@
     </div>
   
     <div class="row">
-      <!-- Start of Side Nav -->
       <div class="col-md-2">
-      
-
         <ul id="sidenav" class="nav nav-stacked">
           <li><a href="https://2024northeastchristianconference4.wordpress.com/">Home</a></li>
-
-<!--          
-				<li><a href="./messages">Messages</a></li>
-				<li><a href="./reginfo">Registration</a></li> 
-		  		<li><a href="./schedule">Schedule</a></li>
-				<li><a href="./fees">Fees</a></li>
-	            <li><a href="./contents/parentalguardianform2023.pdf">
-	              Download Parental/Guardian Consent Form</a>
-	  			</li>
--->
-        </ul>
-
-      
+</ul>
       </div>
 
-<!-- Start of Content Block -->
       <div class="col-md-10">
-        
+        <div class="row">
+          <div class="col-md-10">
+            <h3><strong>Welcome!</strong></h3>
+            <p>Thank you for choosing to pay your registration fee online.<br></p>
+            <p>
+              The registration fee is $50 for EACH person (max $150 per family).<br>
+              Your registration fee can be applied towards your meal and lodging costs, or can be an offering towards conference expenses such as use of facilities, gifts to the speakers, rental equipment and children's class supplies.
+            </p>
+            <p class="text-red">
+              <strong>
+                The deadline to submit the registration fee is 48 hours from the receipt of your confirmation email, or your registration will automatically be <u>CANCELLED</u>.<br><br>
+              </strong>
+            </p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-10">
+            <h4><strong>Online Payment Instructions</strong></h4>
+            <p>
+              – Enter your Family ID and choose your registration option below.<br>
+              – Click the <strong>'Registration Fee'</strong> button to open the secure PayPal checkout.<br>
+              – On the PayPal screen, you can sign in to your account or choose to pay via debit or credit card.
+            </p>
+            
+            <br>
 
+            <form action="https://www.paypal.com/ncp/payment/JZNX7QQ4EKKYG" method="post" target="_blank" style="display:inline-grid; justify-items:start; align-content:start; gap:1rem;">
+              
+              <table class="payment-table">
+                <tr>
+                  <td><strong>Family ID:</strong></td>
+                  <td>
+                    <input type="text" name="os1" placeholder="e.g. FAM123" required style="padding: 4px; max-width: 150px;">
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Registration Fee:</strong></td>
+                  <td>
+                    <select name="os0" style="padding: 4px;">
+                      <option value="Individual">Individual $50.00 USD</option>
+                      <option value="2 People">2 People $100.00 USD</option>
+                      <option value="3+ People">3+ People $150.00 USD</option>
+                    </select> 
+                  </td>
+                </tr>
+              </table>
 
-	<div class="row">
-	  <div class="col-md-10">
-	    <h3>
-	      <strong>Welcome!</strong>
-	    </h3>
-	    <p>
-	      Thank you for choosing to pay your registration fee online.<br>
-	    </p>
-	    <p>
-	      The registration fee is $50 for EACH person (max $150 per family).<br>
-	      Your registration fee can be applied towards your meal and lodging costs, or can be an offering towards conference expenses such as use of facilities, gifts to the speakers, rental equipment and children's class supplies.
-	    </p>
-	    <p class="text-red">
-	    	<strong>
-	        The deadline to submit the registration fee is 48 hours from the receipt of your confirmation email, or your registration will automatically be <u>CANCELLED</u>.<br><br>
-	      </strong>
-	    </p>
-	  </div>
-	</div>
+              <div style="display:inline-grid; justify-items:center; gap:0.5rem; margin-top: 0.5rem; width: 100%; max-width: 250px;">
+                <input class="pp-JZNX7QQ4EKKYG" type="submit" value="Registration Fee" />
+                <img src="https://www.paypalobjects.com/images/Debit_Credit_APM.svg" alt="cards" />
+                <section style="font-size: 0.75rem;"> 
+                  Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem; vertical-align:middle;"/>
+                </section>
+              </div>
 
-	<div class="row">
-	  <div class="col-md-10">
-	  	<h4><strong>Online Payment Instructions</strong></h4>
-	    <p>
-	      – Select the appropriate registration fee amount<br>
-	      – Click 'Pay Now' and follow the instructions to complete the payment. Sign into PayPal if you have an account or choose <i>Pay with a debit or credit card, or PayPal Credit?</i> to pay without a PayPal account.<br>
-	    </p>
-	    <p>
-	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-	        <input type="hidden" name="cmd" value="_s-xclick">
-	        <input type="hidden" name="hosted_button_id" value="XANPB3X7C2BAN">
-	        <input type="hidden" name="currency_code" value="USD">
-	        <table>
-	          <tr>
-	            <td style="padding:3px;"><input type="hidden" name="on1" value="Registration ID">Family ID</td>
-	              <td style="padding:3px;"><input type="text" name="os1" required></td>
-	          </tr>
-	          <tr>
-	            <td style="padding:3px;"><input type="hidden" name="on0" value="Registration Fee">Registration Fee</td>
-	            <td style="padding:3px;">
-	              <select name="os0">
-	                <option value="Individual">Individual $50.00 USD</option>
-	                <option value="2 People">2 People $100.00 USD</option>
-	                <option value="3+ People">3+ People $150.00 USD</option>
-	              </select> 
-	            </td>
-	          </tr>
-	          <tr>
-	            <td colspan=2 align="center" style="padding:3px;">
-	              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="Pay Your Registration Fee Now">
-	              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	            </td>
-	          </tr>
-	        </table>
-	      </form><br>
-	    </p>
-	  </div>
-      
-	</div>
-
+            </form>
+            <br>
+          </div>
+        </div>
       </div>
-      <!-- End of Content Block -->
-      
-    </div>
-      
+      </div>
   </div>
-
-  <p></p>
-
-  
-  
 
   <div>
-    </br>
+    <br/>
   </div>
-
 </body>
 </html>
